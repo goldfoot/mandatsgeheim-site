@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mandatsgeheim.de/sitemap.xml
