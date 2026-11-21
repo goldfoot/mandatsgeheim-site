@@ -50,3 +50,7 @@ footer a{display:inline-block;padding:7px 0}.crumbs a{display:inline-block;paddi
 .tw{position:relative}.tw table td:first-child,.tw table th:first-child{position:sticky;left:0;background:#fff;z-index:1;box-shadow:1px 0 0 var(--line)}.tw table th:first-child{background:#f3f2ed}
 .tw.many::before{content:"← Tabelle seitlich wischen →";display:block;font-size:.8rem;color:var(--mut);padding:0 0 6px}
 }
+/* narrow phones (320 px): grid cells may shrink, long German words break with hyphens */
+.g2>*,.g3>*,.fgrid>*{min-width:0}
+main,footer{overflow-wrap:break-word;hyphens:auto}
+.tool textarea{width:100%;max-width:100%;box-sizing:border-box}
